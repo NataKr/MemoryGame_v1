@@ -1,0 +1,45 @@
+.cards-container{
+  overflow: hidden;
+  /*border: 1px solid blue;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: #F0A400;
+}
+
+.row.top {
+  text-align: center;
+}
+
+body{
+  background-image: url('../images/back2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Risque', cursive;
+  color: #F0A400;
+  letter-spacing: 2px;
+}
+
+h2{
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #C14200;
+}
+
+.lbl-input{
+  font-size: 18px;
+}
+
+#myModal{
+  text-align: center;
+
+}
+
+.modal-content{
+  background-color: #81CDCD;
+}
+
+#flipsCounterHigh{
+  width: 50px;
+}
